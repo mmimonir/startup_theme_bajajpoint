@@ -69,6 +69,18 @@
     return false;
   });
 
+  // Owl carousel
+  $("#owl-carousel").owlCarousel({
+    navigation: true,
+    slideSpeed: 300,
+    paginationSpeed: 400,
+    items: 1,
+    autoPlay: true,
+    itemsDesktop: false,
+    itemsDesktopSmall: false,
+    itemsTablet: false,
+    itemsMobile: false,
+  });
   // Testimonials carousel
   $(".testimonial-carousel").owlCarousel({
     autoplay: true,
